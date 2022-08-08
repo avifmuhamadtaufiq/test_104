@@ -7,7 +7,9 @@
         "microphone": "*",
         "SSD1306_OLED": "github:tinkertanker/pxt-oled-ssd1306#v2.0.13",
         "pxt-esp8266": "github:cytrontechnologies/pxt-esp8266#v1.1.4",
-        "pxt-DS3231": "github:keble6/pxt-ds3231#v1.0.2"
+        "pxt-DS3231": "github:keble6/pxt-ds3231#v1.0.2",
+        "pxt-DHT11_DHT22": "github:alankrantas/pxt-dht11_dht22#v0.0.3",
+        "datalogger": "*"
     },
     "files": [
         "main.blocks",
