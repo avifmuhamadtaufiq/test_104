@@ -27,13 +27,9 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.AB, function () {
     if (input.logoIsPressed()) {
-        basic.showIcon(IconNames.No)
-        datalogger.deleteLog(datalogger.DeleteType.Full)
         logging = false
-        datalogger.setColumnTitles(
-        "time",
-        "temprature"
-        )
+        datalogger.deleteLog(datalogger.DeleteType.Full)
+        basic.showIcon(IconNames.Yes)
     }
 })
 function init_ds3231 () {
